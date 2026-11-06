@@ -2,7 +2,43 @@
 
 Mohamed Alromaithi and Zayed Alnuaimi.
 
-The notebook implements the Part C experiment workflow in PyCharm or Kaggle:
+## Simplified notebook: Version 2
+
+Open `cosc434-group12-project-v2.ipynb` for the teaching version. It has ten
+numbered stages, about 320 lines of Python, short explanations, and visibly
+separate training cells for the four models. It is self-contained on Kaggle
+and also runs locally from the project folder with the existing environment.
+Attach CUB-200-2011 and either enable Internet or attach the official
+`efficientnet_b0_rwightman-7f5810bc.pth` file. Paths can be set in Stage 1.
+
+Version 2 keeps all 200 species, the same fixed splits, validation C selection,
+training-only scaling, final metrics, confusion matrices, and image examples.
+It replaces the automatic recovery, fingerprinting and extensive audit code
+with straightforward sequential cells. It recomputes features and fits models
+on each full run. Restart the kernel and run from the top after changing settings.
+Its direct LinearSVC calls can be slower than Version 1's parallel wrapper.
+Every classifier has the same explicit 2,000-iteration budget; unlike Version 1,
+Logistic Regression does not retry at 10,000 iterations. Unconverged trials are
+logged and excluded. These implementation differences are documented rather
+than assuming the two versions always select identical models.
+
+Outputs go into `results_v2/`; rerunning replaces files there. Copy that folder
+to preserve a run. Version 1 and its existing results remain available for the
+full dataset audit and resumable experiments described below.
+
+Validation: the new notebook reproduced all original split IDs exactly.
+A development run on 100 images (60 fit, 20 validation, 20 artificial evaluation)
+across ten species passed all four models and 16 C trials, feature dimensions,
+histogram normalisation, training-only scaling, prediction alignment, and
+report/figure generation. The artificial evaluation images came from the
+original training split, not the held-out project test set. Development files
+are under `cache/v2_smoke_check.ipynb` and `cache/v2_smoke_results/`; their scores
+are not project results. The full 200-species Version 2 model run and execution
+of Version 2 on hosted Kaggle have not been verified.
+
+## Original notebook: Version 1
+
+`cosc434-group12-project.ipynb` implements the Part C experiment workflow in PyCharm or Kaggle:
 data verification, fixed splits, a resource pilot, four model configurations,
 validation tuning, final test evaluation, and error-analysis figures.
 All 200 species are retained by default. Sections 1–7 prepare data;
