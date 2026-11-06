@@ -1,0 +1,16 @@
+# Local environment and IDE state
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Downloaded/extracted images and regenerable feature caches
+data/
+cache/
+*.tgz
+*.tar.gz
+*.zip
+
+# Local diagnostic logs
+*.log

@@ -1,0 +1,16 @@
+# Direct dependencies for dataset preparation and conventional-model work.
+# Validated on Windows x64 with Python 3.13.14.
+# requirements-lock.txt also pins the transitive dependencies.
+numpy==2.5.4
+pandas==3.1.1
+Pillow==13.0.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+scikit-image==0.26.0
+ipykernel==7.4.0
+jupyterlab==4.6.5
+torch==2.15.0
+torchvision==0.29.2
+psutil==7.2.2
+joblib==1.6.0
+threadpoolctl==3.8.0

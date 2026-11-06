@@ -1,0 +1,11 @@
+{
+  "model": "RGB_LR",
+  "C": 10.0,
+  "fit_seconds": 0.018542399997386383,
+  "max_iter": 2000,
+  "converged": true,
+  "accuracy": 0.06666666666666667,
+  "macro_precision": 0.05310461760461761,
+  "macro_recall": 0.06666666666666667,
+  "macro_f1": 0.051860877684407086
+}

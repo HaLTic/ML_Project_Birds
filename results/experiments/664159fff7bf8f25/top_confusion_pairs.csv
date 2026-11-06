@@ -1,0 +1,21 @@
+model,true_species,predicted_species,count
+RGB_LR,Western Gull,California Gull,8
+RGB_LR,Slaty backed Gull,California Gull,8
+RGB_LR,Fox Sparrow,Le Conte Sparrow,8
+RGB_LR,Cerulean Warbler,Worm eating Warbler,7
+RGB_LR,Herring Gull,California Gull,7
+HSV_SVM,Canada Warbler,Worm eating Warbler,6
+HSV_SVM,Henslow Sparrow,Baird Sparrow,5
+HSV_SVM,Ivory Gull,Slaty backed Gull,5
+HSV_SVM,Cerulean Warbler,Worm eating Warbler,5
+HSV_SVM,Grasshopper Sparrow,Slaty backed Gull,5
+HSV_LBP_SVM,Bay breasted Warbler,Swainson Warbler,5
+HSV_LBP_SVM,Wilson Warbler,Hooded Warbler,5
+HSV_LBP_SVM,Le Conte Sparrow,Cape May Warbler,5
+HSV_LBP_SVM,Prothonotary Warbler,Kentucky Warbler,4
+HSV_LBP_SVM,Cerulean Warbler,Blue winged Warbler,4
+EfficientNet_LR,California Gull,Western Gull,8
+EfficientNet_LR,California Gull,Ring billed Gull,7
+EfficientNet_LR,Herring Gull,Western Gull,7
+EfficientNet_LR,Pine Warbler,Nashville Warbler,5
+EfficientNet_LR,Canada Warbler,Nashville Warbler,5

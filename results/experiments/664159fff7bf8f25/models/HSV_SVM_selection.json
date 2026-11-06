@@ -1,0 +1,11 @@
+{
+  "model": "HSV_SVM",
+  "C": 0.01,
+  "fit_seconds": 2.523238699999638,
+  "max_iter": 2000,
+  "converged": true,
+  "accuracy": 0.04,
+  "macro_precision": 0.05355627705627706,
+  "macro_recall": 0.04,
+  "macro_f1": 0.03893680176033117
+}

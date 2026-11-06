@@ -1,0 +1,3 @@
+image_id,width,height,original_mode,sha256,relative_path,split
+3310,500,333,RGB,96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4,data/CUB_200_2011/images/058.Pigeon_Guillemot/Pigeon_Guillemot_0018_40195.jpg,train
+3340,500,333,RGB,96c64ec1d30fa7071f3809feea6caadd89b941ea5cbcde7133af4c89e27583a4,data/CUB_200_2011/images/058.Pigeon_Guillemot/Pigeon_Guillemot_0081_40339.jpg,train

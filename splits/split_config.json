@@ -1,0 +1,30 @@
+{
+  "dataset": "CUB-200-2011",
+  "source_url": "https://www.vision.caltech.edu/datasets/cub_200_2011/",
+  "archive_sha256": "0c685df5597a8b24909f6a7c9db6d11e008733779a671760afef78feb49bf081",
+  "metadata_sha256": {
+    "images.txt": "e1cfc5ed1f4bd1b838040784b6f75c44f7a25d9b31707a3adab49ec694618c1f",
+    "classes.txt": "66a884364a73edde6c71eeb7fd5d8bb791e80979b64759bd6a5d5d209bdc02ba",
+    "image_class_labels.txt": "e9df8c96d897994a245746fe2c98914b9b31f5342bddc6e8b06bdfbf45e49b02",
+    "train_test_split.txt": "8bbbfcc09b4d3c9c6e3e40c9874bd863eb6658f4f456e472df1b33d3403d2600"
+  },
+  "seed": 42,
+  "validation_fraction_of_official_training": 0.2,
+  "stratify_by": "class_id",
+  "classes_retained": 200,
+  "label_ids": "original 1-based IDs (1 through 200)",
+  "path_base": "canonical project-relative paths; resolve using image_file()",
+  "official_test_preserved": true,
+  "scikit_learn_version": "1.9.1",
+  "counts": {
+    "train": 4795,
+    "validation": 1199,
+    "test": 5794
+  },
+  "manifest_sha256": {
+    "image_manifest.csv": "507149c4ef29054388bf39e59c50845b972dee4b8e6ba5c4667f035cc19d3fbd",
+    "train.csv": "26ae0ce849e4c817edcca3542bf91f4df8b53994d473c29cf15c8ee4b637eb9e",
+    "validation.csv": "c351bf9604c4837195fa82fafcc963c88f4453fb85357a719b8f0a08b220a9ce",
+    "test.csv": "15c76ebc3b35be157809168a3f7b9e43c230714222a6765ae1ea3fa19991e1e3"
+  }
+}

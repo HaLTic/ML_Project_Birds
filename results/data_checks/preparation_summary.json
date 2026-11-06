@@ -1,0 +1,67 @@
+{
+  "prepared_at_utc": "2026-11-06T13:23:34.270689+00:00",
+  "stage": "dataset preparation; no models trained",
+  "environment": {
+    "runtime": "local",
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "logical_cpu_count": 32,
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "Pillow": "13.0.0",
+      "matplotlib": "3.11.2",
+      "scikit-learn": "1.9.1",
+      "scikit-image": "0.26.0",
+      "ipykernel": "7.4.0",
+      "jupyterlab": "4.6.5"
+    }
+  },
+  "dataset": {
+    "source": {
+      "source_type": "archive",
+      "source_path": "C:\\Users\\dalma\\PycharmProjects\\MachineLearning_Project\\BirdImages_Dataset.tgz",
+      "archive_name": "BirdImages_Dataset.tgz",
+      "archive_sha256": "0c685df5597a8b24909f6a7c9db6d11e008733779a671760afef78feb49bf081"
+    },
+    "archive_name": "BirdImages_Dataset.tgz",
+    "archive_sha256": "0c685df5597a8b24909f6a7c9db6d11e008733779a671760afef78feb49bf081",
+    "images": 11788,
+    "species": 200,
+    "original_image_modes": {
+      "RGB": 11780,
+      "L": 8
+    },
+    "official_counts": {
+      "train": 5994,
+      "test": 5794
+    },
+    "split_counts": {
+      "train": 4795,
+      "validation": 1199,
+      "test": 5794
+    }
+  },
+  "checks": {
+    "all_images_decoded": true,
+    "image_errors": 0,
+    "duplicate_image_ids": 0,
+    "exact_duplicate_image_files": 2,
+    "exact_duplicate_groups": 1,
+    "duplicate_files_by_split": {
+      "train": 2
+    },
+    "exact_duplicate_groups_across_splits": 0,
+    "official_test_preserved": true,
+    "all_species_in_every_split": true,
+    "saved_manifests_read_back_successfully": true
+  },
+  "preparation_timings_seconds": {
+    "archive_check_and_extraction_seconds": 0.682,
+    "metadata_verification_seconds": 0.034,
+    "image_integrity_seconds": 22.49,
+    "split_creation_seconds": 0.086
+  },
+  "next_stage": "Training-only resource pilot, then RGB histogram + Logistic Regression baseline."
+}

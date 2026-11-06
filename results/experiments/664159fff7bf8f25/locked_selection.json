@@ -1,0 +1,17 @@
+{
+  "run_id": "664159fff7bf8f25",
+  "selection_metric": "validation_macro_f1",
+  "selected_C": {
+    "RGB_LR": 10.0,
+    "HSV_SVM": 0.01,
+    "HSV_LBP_SVM": 0.1,
+    "EfficientNet_LR": 1.0
+  },
+  "model_sha256": {
+    "RGB_LR": "858509fa7db0a71af63d4683b75e8d619cc56d12c444021467c35bc2a21f10f3",
+    "HSV_SVM": "82a071b575384be14159885da8dedea2330f8122cbb2e2e907dba48e8c080154",
+    "HSV_LBP_SVM": "489268184d99a8d5a2d5998298286d5c750ed0a228d2748cf0b67bf9205ed470",
+    "EfficientNet_LR": "f6b3c09790390f8478fe1a8b573ebe3ea6b34755868bb2ac4cf702a2d053e80c"
+  },
+  "test_used_for_selection": false
+}
