@@ -1,2 +1,0 @@
-model,C,fit_seconds,max_iter,converged,accuracy,macro_precision,macro_recall,macro_f1
-RGB_LR,10.0,0.1648672000010265,2000,True,0.0158465387823186,0.010796787820819385,0.01583333333333333,0.00903574363336566

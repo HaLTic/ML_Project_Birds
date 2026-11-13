@@ -1,9 +1,0 @@
-Run 664159fff7bf8f25: 2963 images, 50 species; seed 42.
-Splits: 1199 training / 300 validation / 1464 test.
-Highest measured test macro-F1: EfficientNet_LR = 0.7612.
-RGB baseline test macro-F1: 0.0326.
-HSV+LBP minus HSV test macro-F1: +0.0097.
-EfficientNet minus RGB test macro-F1: +0.7286.
-Selections used validation macro-F1 only; final test predictions are saved.
-Interpret the top confusion pairs and sampled images before claiming visual causes.
-Limitations: single split, small per-class samples, background correlations, possible ImageNet overlap.

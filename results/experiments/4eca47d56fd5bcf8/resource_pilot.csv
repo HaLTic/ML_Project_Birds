@@ -1,4 +1,0 @@
-operation,images,seconds,estimated_all_images_seconds,rss_mb
-hist,64,0.3162425999980769,14.641044121785967,499.31640625
-cnn,64,1.3063672999996925,60.48072359217326,667.8203125
-50-class RGB classifier (2 training images per species),100,0.08273929999995744,,669.4765625
