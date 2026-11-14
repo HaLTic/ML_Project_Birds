@@ -1,3 +1,7 @@
 ,seconds
-hist_all_splits_seconds,123.80032990000007
-cnn_all_splits_seconds,204.7108057999999
+features_train,17.655819540988887
+features_validation,4.559899291984038
+features_test,21.409109250002075
+cnn_features_train,23.41329249998671
+cnn_features_validation,6.204626541992184
+cnn_features_test,28.234418665990233
