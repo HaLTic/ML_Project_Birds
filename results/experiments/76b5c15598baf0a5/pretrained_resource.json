@@ -1,8 +1,0 @@
-{
-  "url": "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth",
-  "sha256": "7f5810bc96def8f7552d5b7e68d53c4786f81167d28291b21c0d90e1fca14934",
-  "weights": "EfficientNet_B0_Weights.IMAGENET1K_V1",
-  "feature_dimension": 1280,
-  "frozen": true,
-  "transform": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BICUBIC\n)"
-}

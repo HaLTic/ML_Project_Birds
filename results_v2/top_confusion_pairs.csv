@@ -1,0 +1,51 @@
+model,true_species,predicted_species,count
+RGB_LR,Philadelphia Vireo,Spotted Catbird,10
+RGB_LR,Pileated Woodpecker,Spotted Catbird,9
+RGB_LR,Henslow Sparrow,Le Conte Sparrow,8
+RGB_LR,Canada Warbler,Spotted Catbird,7
+RGB_LR,Seaside Sparrow,Le Conte Sparrow,7
+RGB_LR,Red legged Kittiwake,Spotted Catbird,7
+RGB_LR,Painted Bunting,Spotted Catbird,6
+RGB_LR,Hooded Warbler,Spotted Catbird,6
+RGB_LR,Horned Puffin,Spotted Catbird,6
+RGB_LR,Nelson Sharp tailed Sparrow,Le Conte Sparrow,6
+HSV_SVM,Hooded Oriole,Baltimore Oriole,8
+HSV_SVM,Scarlet Tanager,Baltimore Oriole,8
+HSV_SVM,Blue Grosbeak,Painted Bunting,8
+HSV_SVM,Purple Finch,Pine Grosbeak,7
+HSV_SVM,Red breasted Merganser,Pied billed Grebe,6
+HSV_SVM,Cardinal,Vermilion Flycatcher,6
+HSV_SVM,Sayornis,Bobolink,5
+HSV_SVM,Red breasted Merganser,Black footed Albatross,5
+HSV_SVM,Red winged Blackbird,American Crow,5
+HSV_SVM,Prothonotary Warbler,Hooded Oriole,5
+HSV_LBP_SVM,Blue Grosbeak,Painted Bunting,9
+HSV_LBP_SVM,Scarlet Tanager,Baltimore Oriole,8
+HSV_LBP_SVM,Hooded Oriole,Baltimore Oriole,8
+HSV_LBP_SVM,Pacific Loon,Red breasted Merganser,7
+HSV_LBP_SVM,Gadwall,Red breasted Merganser,7
+HSV_LBP_SVM,Purple Finch,Pine Grosbeak,7
+HSV_LBP_SVM,American Pipit,Geococcyx,6
+HSV_LBP_SVM,Cardinal,Vermilion Flycatcher,6
+HSV_LBP_SVM,Prothonotary Warbler,Hooded Oriole,5
+HSV_LBP_SVM,Horned Grebe,Pacific Loon,5
+HSV_LBP_GLCM_SVM,Hooded Oriole,Baltimore Oriole,8
+HSV_LBP_GLCM_SVM,Blue Grosbeak,Painted Bunting,8
+HSV_LBP_GLCM_SVM,Gadwall,Red breasted Merganser,8
+HSV_LBP_GLCM_SVM,Scarlet Tanager,Baltimore Oriole,8
+HSV_LBP_GLCM_SVM,Purple Finch,Pine Grosbeak,7
+HSV_LBP_GLCM_SVM,Pacific Loon,Red breasted Merganser,6
+HSV_LBP_GLCM_SVM,Black footed Albatross,Rhinoceros Auklet,6
+HSV_LBP_GLCM_SVM,Red breasted Merganser,Black footed Albatross,5
+HSV_LBP_GLCM_SVM,Cardinal,Vermilion Flycatcher,5
+HSV_LBP_GLCM_SVM,American Pipit,Geococcyx,5
+EfficientNet_LR,Anna Hummingbird,Ruby throated Hummingbird,9
+EfficientNet_LR,Elegant Tern,Caspian Tern,8
+EfficientNet_LR,Acadian Flycatcher,Yellow bellied Flycatcher,8
+EfficientNet_LR,Common Tern,Artic Tern,8
+EfficientNet_LR,Common Tern,Forsters Tern,8
+EfficientNet_LR,Least Flycatcher,Acadian Flycatcher,7
+EfficientNet_LR,American Crow,Fish Crow,7
+EfficientNet_LR,California Gull,Western Gull,7
+EfficientNet_LR,Long tailed Jaeger,Pomarine Jaeger,7
+EfficientNet_LR,Common Raven,American Crow,7

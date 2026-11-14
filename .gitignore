@@ -16,8 +16,9 @@ cache/
 *.tar.gz
 *.zip
 
-# Version 2 generated models and figures containing dataset photographs
+# Version 2 generated models, feature caches, and figures containing dataset photographs
 results_v2/*.joblib
+results_v2/*.npz
 results_v2/*_examples.png
 
 # Local diagnostic logs
