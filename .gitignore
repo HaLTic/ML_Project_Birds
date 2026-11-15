@@ -23,3 +23,6 @@ results_v2/*_examples.png
 
 # Local diagnostic logs
 *.log
+
+# Simplified notebook: regenerable feature caches
+results_v3_simple/*.npz

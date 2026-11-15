@@ -1,0 +1,71 @@
+model,true_species,predicted_species,count
+Colour_LR,Hooded Oriole,Baltimore Oriole,8
+Colour_LR,Blue Grosbeak,Painted Bunting,8
+Colour_LR,Bohemian Waxwing,Pine Grosbeak,7
+Colour_LR,Purple Finch,Pine Grosbeak,7
+Colour_LR,Red breasted Merganser,Black footed Albatross,6
+Colour_LR,Sayornis,Bobolink,6
+Colour_LR,American Three toed Woodpecker,Crested Auklet,6
+Colour_LR,Scarlet Tanager,Baltimore Oriole,6
+Colour_LR,Western Gull,Crested Auklet,5
+Colour_LR,Indigo Bunting,Painted Bunting,5
+ColourLBP_LR,Pine Grosbeak,Purple Finch,7
+ColourLBP_LR,Scarlet Tanager,Baltimore Oriole,6
+ColourLBP_LR,Blue Grosbeak,Painted Bunting,6
+ColourLBP_LR,Scissor tailed Flycatcher,Pomarine Jaeger,5
+ColourLBP_LR,Florida Jay,Blue Grosbeak,5
+ColourLBP_LR,Ruby throated Hummingbird,Anna Hummingbird,5
+ColourLBP_LR,Pacific Loon,Red breasted Merganser,5
+ColourLBP_LR,Hooded Oriole,Baltimore Oriole,5
+ColourLBP_LR,Loggerhead Shrike,Elegant Tern,4
+ColourLBP_LR,Seaside Sparrow,Le Conte Sparrow,4
+ColourLBPGLCM_LR,Pine Grosbeak,Purple Finch,7
+ColourLBPGLCM_LR,Blue Grosbeak,Painted Bunting,6
+ColourLBPGLCM_LR,Cardinal,Summer Tanager,5
+ColourLBPGLCM_LR,Florida Jay,Blue Grosbeak,5
+ColourLBPGLCM_LR,Gray Kingbird,Pomarine Jaeger,4
+ColourLBPGLCM_LR,Pigeon Guillemot,Horned Puffin,4
+ColourLBPGLCM_LR,Pacific Loon,Red breasted Merganser,4
+ColourLBPGLCM_LR,Ruby throated Hummingbird,Anna Hummingbird,4
+ColourLBPGLCM_LR,Nelson Sharp tailed Sparrow,Le Conte Sparrow,4
+ColourLBPGLCM_LR,Red breasted Merganser,Black footed Albatross,4
+ColourLBPGLCM_SVM,Scarlet Tanager,Baltimore Oriole,8
+ColourLBPGLCM_SVM,Hooded Oriole,Baltimore Oriole,8
+ColourLBPGLCM_SVM,Gadwall,Red breasted Merganser,8
+ColourLBPGLCM_SVM,Blue Grosbeak,Painted Bunting,8
+ColourLBPGLCM_SVM,Purple Finch,Pine Grosbeak,7
+ColourLBPGLCM_SVM,Pacific Loon,Red breasted Merganser,6
+ColourLBPGLCM_SVM,Black footed Albatross,Rhinoceros Auklet,6
+ColourLBPGLCM_SVM,Cardinal,Vermilion Flycatcher,5
+ColourLBPGLCM_SVM,Prothonotary Warbler,Hooded Oriole,5
+ColourLBPGLCM_SVM,Western Grebe,Pacific Loon,5
+ResNet18_LR,Common Raven,American Crow,10
+ResNet18_LR,American Crow,Common Raven,10
+ResNet18_LR,Anna Hummingbird,Ruby throated Hummingbird,9
+ResNet18_LR,Barn Swallow,Cliff Swallow,9
+ResNet18_LR,Louisiana Waterthrush,Northern Waterthrush,9
+ResNet18_LR,Ring billed Gull,Glaucous winged Gull,8
+ResNet18_LR,Long tailed Jaeger,Pomarine Jaeger,8
+ResNet18_LR,California Gull,Ring billed Gull,8
+ResNet18_LR,Winter Wren,House Wren,8
+ResNet18_LR,Brandt Cormorant,Pelagic Cormorant,8
+EfficientNet_LR,Common Tern,Forsters Tern,9
+EfficientNet_LR,Anna Hummingbird,Ruby throated Hummingbird,9
+EfficientNet_LR,Elegant Tern,Caspian Tern,8
+EfficientNet_LR,Common Raven,American Crow,8
+EfficientNet_LR,Acadian Flycatcher,Yellow bellied Flycatcher,8
+EfficientNet_LR,Common Tern,Artic Tern,8
+EfficientNet_LR,Long tailed Jaeger,Pomarine Jaeger,8
+EfficientNet_LR,Forsters Tern,Common Tern,7
+EfficientNet_LR,Least Flycatcher,Acadian Flycatcher,7
+EfficientNet_LR,California Gull,Ring billed Gull,7
+DINOv2_LR,Great Grey Shrike,Loggerhead Shrike,10
+DINOv2_LR,Loggerhead Shrike,Great Grey Shrike,10
+DINOv2_LR,Long tailed Jaeger,Pomarine Jaeger,9
+DINOv2_LR,Common Tern,Artic Tern,9
+DINOv2_LR,Least Flycatcher,Acadian Flycatcher,9
+DINOv2_LR,Brandt Cormorant,Pelagic Cormorant,8
+DINOv2_LR,Forsters Tern,Common Tern,8
+DINOv2_LR,Fish Crow,American Crow,8
+DINOv2_LR,Chuck will Widow,Whip poor Will,8
+DINOv2_LR,House Sparrow,Field Sparrow,7

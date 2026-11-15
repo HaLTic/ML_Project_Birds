@@ -43,7 +43,15 @@
       "ASM"
     ]
   },
-  "cnn_weights": "EfficientNet_B0_Weights.IMAGENET1K_V1",
+  "pretrained_networks": {
+    "resnet18": "torchvision ResNet18_Weights.IMAGENET1K_V1",
+    "efficientnet": "torchvision EfficientNet_B0_Weights.IMAGENET1K_V1",
+    "dinov2": "torch.hub facebookresearch/dinov2 dinov2_vits14"
+  },
+  "network_input": {
+    "resize": 256,
+    "crop": 224
+  },
   "device": "mps",
   "cpu_cores": 12,
   "versions": {

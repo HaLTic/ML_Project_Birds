@@ -39,6 +39,16 @@ HSV_LBP_GLCM_SVM,Black footed Albatross,Rhinoceros Auklet,6
 HSV_LBP_GLCM_SVM,Cardinal,Vermilion Flycatcher,5
 HSV_LBP_GLCM_SVM,Prothonotary Warbler,Hooded Oriole,5
 HSV_LBP_GLCM_SVM,Western Gull,Crested Auklet,5
+ResNet18_LR,Elegant Tern,Caspian Tern,10
+ResNet18_LR,Common Raven,American Crow,10
+ResNet18_LR,Western Wood Pewee,Olive sided Flycatcher,9
+ResNet18_LR,American Crow,Common Raven,9
+ResNet18_LR,Louisiana Waterthrush,Northern Waterthrush,9
+ResNet18_LR,Artic Tern,Common Tern,8
+ResNet18_LR,Anna Hummingbird,Ruby throated Hummingbird,8
+ResNet18_LR,Long tailed Jaeger,Pomarine Jaeger,8
+ResNet18_LR,Chipping Sparrow,Tree Sparrow,8
+ResNet18_LR,Fish Crow,Boat tailed Grackle,8
 EfficientNet_LR,Anna Hummingbird,Ruby throated Hummingbird,9
 EfficientNet_LR,Common Tern,Forsters Tern,9
 EfficientNet_LR,Acadian Flycatcher,Yellow bellied Flycatcher,8
@@ -49,3 +59,13 @@ EfficientNet_LR,California Gull,Western Gull,7
 EfficientNet_LR,American Crow,Fish Crow,7
 EfficientNet_LR,Long tailed Jaeger,Pomarine Jaeger,7
 EfficientNet_LR,Brewer Blackbird,Shiny Cowbird,7
+DINOv2_LR,Loggerhead Shrike,Great Grey Shrike,11
+DINOv2_LR,Long tailed Jaeger,Pomarine Jaeger,10
+DINOv2_LR,Least Flycatcher,Acadian Flycatcher,10
+DINOv2_LR,Fish Crow,American Crow,9
+DINOv2_LR,California Gull,Western Gull,9
+DINOv2_LR,Great Grey Shrike,Loggerhead Shrike,9
+DINOv2_LR,Forsters Tern,Common Tern,9
+DINOv2_LR,Chuck will Widow,Whip poor Will,8
+DINOv2_LR,Anna Hummingbird,Ruby throated Hummingbird,8
+DINOv2_LR,Common Tern,Artic Tern,8
