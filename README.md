@@ -26,6 +26,7 @@ python -m venv .venv
 ```
 Open [cosc434-group12-project-v3-simple.ipynb](cosc434-group12-project-v3-simple.ipynb) and **Run All** from a fresh kernel.
 - **On Kaggle:** Attach `CUB-200-2011` as input (auto-detected under `/kaggle/input`) and enable Internet so pretrained weights can download on the first run. GPU accelerates feature extraction automatically.
+- **Runtime, Hardware & Seed:** All splits and classifiers are locked with `SEED = 42`. Verified on Apple Silicon (`mps`) and Windows CPU; once features are cached (`results_v3_simple/*.npz`), all 28 validation tuning trials complete in `< 1 min` total (`results_v3_simple/validation_trials.csv`).
 - **Reruns & Outputs:** Extracted feature caches (`results_v3_simple/*.npz`) are gitignored; final tables and plots (`test_metrics.csv`, `validation_trials.csv`, `top_confusion_pairs.csv`, `model_comparison.png`, `settings.json`) are saved in `results_v3_simple/`.
 
 ## Pretrained Resource Disclosure
