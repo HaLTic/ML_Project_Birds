@@ -7,7 +7,6 @@ __pycache__/
 
 # Empty nested repository; project files live in this repository's root
 /ML_Project_Birds/
-/results_v2
 
 # Downloaded/extracted images and regenerable feature caches
 data/
@@ -15,11 +14,6 @@ cache/
 *.tgz
 *.tar.gz
 *.zip
-
-# Version 2 generated models, feature caches, and figures containing dataset photographs
-results_v2/*.joblib
-results_v2/*.npz
-results_v2/*_examples.png
 
 # Local diagnostic logs
 *.log
